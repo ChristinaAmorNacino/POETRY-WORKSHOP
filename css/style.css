@@ -1,0 +1,123 @@
+body {
+		font-size: 100%;
+		color: #231f1f;
+		background-color: #f6f1f125;
+	}
+
+	h1{
+		font-size: 300%;
+		letter-spacing: 0.1em;
+		font-weight: 800;
+		font-family: sans-serif;
+	}
+
+	li {
+		list-style-image: url("/img/icon-plus.png");
+		line-height: 1.6em;
+	}
+
+	table {
+		border-spacing: 0px;
+		font-family: serif;
+	}
+
+	th, td {
+		padding: 5px 30px 5px 10px;
+		border-spacing: 0px;
+		font-size: 90%;
+		margin: 0px;
+	}
+			
+	th, td {
+		text-align: left;
+		background-color:  rgb(247, 218, 218);
+		border-top: 1px solid  rgb(168, 165, 165);
+		border-bottom: 1px solid  rgb(210, 203, 203);
+		border-right: 1px solid  rgb(168, 165, 165);
+	}
+	
+	tr.head th {
+		color: #fff;
+		background-color: rgb(248,120,107);
+		border-bottom: 2px solid rgb(193, 73, 60);
+		border-right: 1px solid rgb(193, 73, 60);
+		border-top: 1px solid rgb(248,120,107);
+		text-align: center;
+		text-shadow: -1px -1px 1px #666666;
+		letter-spacing: 0.15em;
+	}
+	
+	td {
+		text-shadow: 1px 1px 1px #ffffff;
+	}
+
+	tr.even td, tr.even th {
+		background-color:  rgb(248,202,202);
+	}
+
+	tr.head th:first-child {
+		-webkit-border-top-left-radius: 5px;
+		-moz-border-radius-topleft: 5px;
+		border-top-left-radius: 5px;
+	}
+
+	tr.head th:last-child {
+		-webkit-border-top-right-radius: 5px;
+		-moz-border-radius-topright: 5px;
+		border-top-right-radius: 5px;
+	}
+
+
+	fieldset {
+		width: 310px;
+		margin-left: 12%;
+		margin-top: 20px;
+		border: 1px solid #aba7a7;
+		background-color: #fff5f5;
+		line-height: 1.6em;
+	}
+
+	legend {
+		font-style: italic;
+		color: #5c5959;
+	}
+
+	input[type="text"] {
+		width: 120px;
+		border: 1px solid #d6d6d6;
+		padding: 2px;
+		outline: none;
+	}
+
+	input[type="text"]:focus,
+	input[type="text"]:hover {
+		background-color: #fce1e0;
+		border: 1px solid #999999;
+	}
+
+	input[type="submit"] {
+		border: 1px solid #eb3c0c;
+		background-color: #d66b4d;
+		color: #ffffff;
+		border-radius: 5px;
+		padding: 5px;
+		margin-top: 10px;
+	}
+
+	input[type="submit"]:hover {
+		border: 1px solid #eb3c0c;
+		background-color: #F8786B;
+		color: #ffffff;
+		cursor: pointer;
+	}
+
+	.title {
+		float: left;
+		width: 160px;
+		clear: left;
+	}
+	.submit {
+		margin-left: 4%;
+		width: 310px;
+		text-align: right;
+	}
