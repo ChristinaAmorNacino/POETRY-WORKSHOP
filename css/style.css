@@ -12,7 +12,7 @@ body {
 	}
 
 	li {
-		list-style-image: url("/img/icon-plus.png");
+		list-style-image: url("../img/icon-plus.png");
 		line-height: 1.6em;
 	}
 
